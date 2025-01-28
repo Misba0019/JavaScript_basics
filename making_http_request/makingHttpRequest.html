@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Making HTTP Request - XMLHttpRequest And Fetch API</title>
+</head>
+<body>
+    <h1> JS request making </h1>
+
+    <!-- XMLHttpRequest - XRHs -->
+    <h2> XMLHttpRequest </h2>
+    <p>The Original way of sending requests via JS. </p>
+    <ul>
+    <li><b>Least Useful Way</b> out of all!</li>
+    <li>Does not support promises, so lots of callbacks!</li>
+    <li>Clunky Syntax (difficult to remember)</li>
+    </ul>
+
+    <!-- Fetch API -->
+    <h2>Fetch API</h2>
+    <p>This allows us to make a request using a function called Fetch</p>
+
+    <ul>
+    <li>The newer <b>better way</b> of making requests via JS. (Supports Promises)</li>
+    
+    <li>Not supported in Internet Explorer.</li>
+    </ul>
+
+    <h2>Click to get new jokes:-</h2>
+    <button>Click</button>
+    <ul id="jokes"></ul>
+    <!-- We'll append a new joke to that ul -->
+
+    <h2>TV Show Search:-</h2>
+    <form id="searchForm">
+        <input type="text" placeholder="Search TV Show" name="q">
+        <button>Search</button>
+    </form>
+
+
+    <!-- AXIOS API's script-->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script> <!-- With this we import axios to our file -->
+    <!-- AXIOS APi's JS file script-->
+     <script src="axios_http_req.js"></script>
+
+    <!-- Fetch API's script -->
+    <script src="fetch_api.js"></script>
+
+    <!-- XMLHttpRequest's script -->
+    <script src="XMLHttpRequest.js"></script>
+</body>
+</html>

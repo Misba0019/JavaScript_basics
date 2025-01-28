@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbling and Delegation - Events</title>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+    <!-- The hide class can be used to dynamically control the visibility of elements using JavaScript. -->
+</head>
+
+<body>
+    <h1>Bubbling and Delegation</h1>
+    <div id="container">
+        Click to Hide
+        <button id="changeColor">Change Color</button>
+    </div>
+
+    <form action="/dogs" id="form">
+        <input type="text" name="username" id='username' placeholder="Username">
+        <input type="text" name="input" id='input' placeholder="Input">
+        <button id="subForm">Form Submit</button>
+    </form>
+
+    <h2>Input list</h2>
+    <ul id="inputList">
+        <li>Li will be Removed</li>
+        <li>Li will be Removed</li>
+        <p>I am a paragraph and I shouldn't be able to be removed when clicked.</p>
+    </ul>
+
+    <script src="more_of_events.js"></script>
+</body>
+
+</html>
