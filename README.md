@@ -29,6 +29,21 @@ Objects are collections of key-value pairs and are fundamental to JavaScript pro
 - Additionally, it includes examples of nested arrays and objects, as well as accessing nested object properties.
 - Learn how to create, manipulate, and traverse objects effectively.
 
+## Operators
+**Operators** are symbols used to perform operations on values and variables. They help in calculations and decision-making. This section includes:
+
+### Arithmetic Operators
+- **Addition (`+`)**
+- **Subtraction (`-`)**
+- **Multiplication (`*`)**
+- **Division (`/`)**
+- **Modulus (`%`)**
+
+### Logical Operators
+- **AND (`&&`)**: Checks if both conditions are true.
+- **OR (`||`)**: Checks if at least one condition is true.
+- **NOT (`!`)**: Checks if a condition is false.
+
 ## AJAX & APIs
 AJAX (Asynchronous JavaScript and XML) has evolved into AJAJ (Asynchronous JavaScript and JSON).
 - This section covers making HTTP requests using JSON, parsing JSON data, and interacting with web-based APIs.
