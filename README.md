@@ -68,9 +68,6 @@ Understanding truthy and falsy values is crucial for writing accurate conditiona
 Error handling is an essential part of programming.
 - Learn how to handle errors using `try` and `catch` blocks.
 
-## var, let, & const
-Learn the differences between these three keywords used for variable declaration in JavaScript, and when to use each.
-
 ## Variables & Data Types
 Variables store data values and are declared using `var`, `let`, or `const`. Data types determine the kind of data a variable can hold.
 - This section includes files on declaring variables, primitive data types, and type conversion.
