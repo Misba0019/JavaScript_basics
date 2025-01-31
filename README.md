@@ -1,4 +1,5 @@
 # JavaScript Basics
+## Overview
 This repository covers fundamental concepts of JavaScript, providing a solid foundation for any beginner to start their JavaScript journey.
 
 ## Arrays
@@ -50,7 +51,7 @@ AJAX (Asynchronous JavaScript and XML) has evolved into AJAJ (Asynchronous JavaS
 - Learn how to convert JSON strings to JavaScript objects using `JSON.parse`, handle sample JSON data, and use reviver functions.
 - Explore examples of using modern tools and techniques to efficiently share data between systems over the internet.
 
-## Async
+## Asynchronous Programming in JavaScript (async/await)
 Asynchronous programming is essential for improving the performance and responsiveness of web applications.
 - This section covers the use of `setTimeout`, Promises, async/await, and handling asynchronous operations.
 - You'll learn how to manage the call stack, avoid callback hell, and chain Promises.
@@ -63,7 +64,7 @@ Classes are templates for creating objects in JavaScript.
 - The examples include converting colors between RGB, HEX, RGBA, and HSL formats, calculating HSL values, and styling HTML elements with these color instances.
 - Explore how classes encapsulate functionality and make your code more modular and reusable.
 
-## Extends & Super Keyword
+## JavaScript ES6: Understanding **extends** & **super**
 The `extends` keyword is used to create a class that is a child of another class.
 The `super` keyword is used to access properties and methods of the parent class.
 - This section covers inheritance in JavaScript.
@@ -71,7 +72,7 @@ The `super` keyword is used to access properties and methods of the parent class
 ## Making HTTP Requests
 Learn how to make HTTP requests using fetch, axios, and XML API methods to interact with web servers.
 
-## setTimeout & setInterval
+## Async Operations with **setTimeout** & **setInterval**
 These functions are used to execute code after a set period or repeatedly at specified intervals.
 - This section covers how to use them effectively.
 
@@ -79,7 +80,7 @@ These functions are used to execute code after a set period or repeatedly at spe
 Understanding truthy and falsy values is crucial for writing accurate conditional statements.
 - This section explains what values are considered truthy or falsy in JavaScript.
 
-## try & catch
+## Exception Handling Mechanisms: **Try & Catch**
 Error handling is an essential part of programming.
 - Learn how to handle errors using `try` and `catch` blocks.
 
