@@ -89,4 +89,4 @@ Variables store data values and are declared using `var`, `let`, or `const`. Dat
 - This section includes files on declaring variables, primitive data types, and type conversion.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
