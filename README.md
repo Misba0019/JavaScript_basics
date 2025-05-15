@@ -1,6 +1,9 @@
 # JavaScript Basics
-## Overview
+
+## Description
 This repository covers fundamental concepts of JavaScript, providing a solid foundation for any beginner to start their JavaScript journey.
+
+---
 
 ## Topics
 1. **Arrays**  
@@ -34,17 +37,17 @@ Objects are collections of key-value pairs and are fundamental to JavaScript pro
 7. **Operators**  
 **Operators** are symbols used to perform operations on values and variables. They help in calculations and decision-making. This section includes:
 
-### Arithmetic Operators
-- **Addition (`+`)**
-- **Subtraction (`-`)**
-- **Multiplication (`*`)**
-- **Division (`/`)**
-- **Modulus (`%`)**
+- Arithmetic Operators:
+  - **Addition (`+`)**: Adds two values.
+  - **Subtraction (`-`)**: Subtracts one value from another.
+  - **Multiplication (`*`)**: Multiplies two values.
+  - **Division (`/`)**: Divides one value by another.
+  - **Modulus (`%`)**: Returns the remainder of a division.
 
-### Logical Operators
-- **AND (`&&`)**: Checks if both conditions are true.
-- **OR (`||`)**: Checks if at least one condition is true.
-- **NOT (`!`)**: Checks if a condition is false.
+- Logical Operators
+  - **AND (`&&`)**: Checks if both conditions are true.
+  - **OR (`||`)**: Checks if at least one condition is true.
+  - **NOT (`!`)**: Checks if a condition is false.
 
 8. **AJAX & APIs**  
 AJAX (Asynchronous JavaScript and XML) has evolved into AJAJ (Asynchronous JavaScript and JSON).
@@ -89,6 +92,8 @@ Error handling is an essential part of programming.
 Variables store data values and are declared using `var`, `let`, or `const`. Data types determine the kind of data a variable can hold.
 - This section includes files on declaring variables, primitive data types, and type conversion.
 
+---
+
 ## How to Use
 1. Clone the repository:
 ```bash
@@ -109,6 +114,8 @@ OR
   
 5. Run the Code Locally:  
 For interactive examples, open the browser's *developer console* to see the output of the JavaScript code.
+
+---
 
 ## Support
 ⭐ If you find this project helpful, please consider visiting the repo and giving it a ⭐ star — it really helps!
